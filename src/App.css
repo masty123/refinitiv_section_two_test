@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* new stuff */
+.content {
+  display: flex;
+  height: 100vh;
+}
+.content > div {
+  display: block;
+}
+
+.left {
+  width: 200px;
+  /* background-color: blue; */
+}
+
+.right {
+  width: 300px;
+  /* background-color: red; */
+
+}
+.middle {
+  width: 100%;
+  min-width: 100px;
+  min-height: 100px;
+  /* background-color: green; */
+}
+
+
+.c-green {
+  color: green;
+}
+
+.c-red {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .middle {
+    overflow-y: scroll;
+  }
+}
+
